@@ -11,166 +11,365 @@
     <meta name="author" content="USA Vehicle Imports">
     <meta 
         name="description"
-        content="Personailsed importer of pre-owned american vehicles and bikes from the east coast to the UK. 
+        content="Personalised importer of pre-owned american vehicles and bikes from the east coast to the UK. 
         Provides sourcing, purchasing and transportation services as a full or individual package 
         including a door-to-door service, covid safe if required.">
 
+    <!-- css styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Links for bootstrap css (js at bottom of page)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+    
 </head>
 <body>
-    <!-- Nav links to the right of logo, logo smaller-->
-    <nav>
-        <div class="container-fluid text-center">
-            <img class="img-fluid" src="/images-home/usa-imports-logo.png" alt="USA Vehicle Imports logo">
-            <!-- COLLAPSABLE -->
-            <ul class="navbar-collapse">
-                <li class="nav-link"><a title="Admin" href="/admin/admin-login.html">Admin</a></li>
-                <li class="nav-link"><a title="edit Inventory" href="/admin/edit-inventory.html">Edit-Inventory</a></li>
-                <li class="nav-link"><a title="Inventory" href="#">Inventory</a></li>
-                <li class="nav-link"><a title="Gallery" href="#">Gallery</a></li>
-                <li class="nav-link"><a title="Contact-us" href="#">Contact us</a></li>
-                <li class="nav-link">
-                    <a title="Facebook" href="https://www.facebook.com/Usavehicleimports/">
-                    <i class="fa fa-facebook-official"></i></a>
-                </li>
-                <li class="nav-link">
-                    <a title="Instagram" href="https://www.instagram.com/usa.vehicle.imports/">
-                    <i class="fa fa-instagram"></i></a>
-                </li>
-            </ul>
+
+        
+        <!-- Nav links to the right of logo, logo smaller-->
+        <nav class="navbar navbar-expand-lg sticky-top p-2 bg-white">       
+            <div class="container-md w-50 p-0">
+                <a class="navbar-brand m-0" href="#">
+                    <img class="img-fluid" src="/images-home/usa-imports-logo.png" width="300" alt="USA Vehicle Imports logo">
+                </a>
+            </div>   
+                    
+            <div class="d-flex align-items-center"> 
+                <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>    
+                
+                <div class="navbar-collapse collapse " id="navbarNav">
+                    <!-- COLLAPSABLE -->
+                    <ul class="nav navbar-nav align-items-center">
+                        <li>         
+                            <a class="nav-item nav-link" href="/admin/admin-login.html">Admin <span class="sr-only">(current)</span></a>       
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="/admin/edit-inventory.html">Edit-Inventory</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="#contactUs">Contact us</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" style="color: coral;" title="Facebook" href="https://www.facebook.com/Usavehicleimports/">
+                                <i class="fa fa-facebook-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" style="color: coral;" title="Instagram" href="https://www.instagram.com/usa.vehicle.imports/">
+                                <i class="fa fa-instagram fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        <!--<div class="bg-image sticky-top z-n1">
+            <div class="text-center">-->
+        <div class="header-parallax">
+            <div class="container">
+                <div class="header-content">
+                    <h1>WELCOME to USA Vehicle Imports</h1>
+                    <p>We specialise in wholesale and import of pre-owned vehicles from East Coast USA.</p>
+                <!--<img class="img-fluid vw-100" src="/images-home/banner-1.jpg"  alt="USA Vehicle Imports logo">-->
+                </div>
+            </div>
         </div>
-    </nav>
-
+    
     <header>
-        <div class="container-fluid bg-primary-subtle">
+        <div class="container-fluid bg-white text-center">
+            <br>
             <h1>
-                American Car Sales, Imports, Transportation, Registration, Sourcing
+                American Car Sales, Imports, Transportation, Registration, and Sourcing
             </h1>
-
-            <h1>WELCOME to USA Vehicle Imports</h1>
-            <p>
-                We specialise in wholesale and import of pre-owned vehicles from East Coast USA.
-                We provide a safe and secure way to import cars directly from the USA. We can select and buy cars on your behalf and request.
-                All vehicles are personally inspected by our team before purchase in the United States.
-                We deliver your vehicle(s) from door to door using our own transport team.
-                We have over 25 years’ experience in buying used American cars, RVs, convertibles, classics, motorbikes, and much more!
-                Delivery can be as soon as 4 weeks depending on shipping locations.
-            </p>
+            <br>          
+            <div class="container-fluid text-center p-4">
+                
+                <p>We provide a safe and secure way to import cars directly from the USA.</p> 
+                <p>We can select and buy cars on your behalf and request.</p>
+                <p>All vehicles are personally inspected by our team before purchase in the United States.</p>
+                <p>We deliver your vehicle(s) from door to door using our own transport team.</p>
+                <p>We have over 25 years experience in buying used American cars, RVs, convertibles, classics, motorbikes, and much more!</p>
+                <p>Delivery can be as soon as 4 weeks depending on shipping locations.</p>
+                <img class="img-fluid mt-2 mb-2 rounded-2 shadow" src="/images-home/banner-4.jpg"  alt="USA Vehicle Imports logo">
+           
+            </div>
         </div>
     </header>
 
-    
-    
-    
-    
     <main>
-        <div class="container-fluid bg-light">
-            <h1>IMPORTING</h1>
-            <p>
-                Importing Vehicles from USA
-                -> Have you purchased a vehicle from the USA and need it shipped to a UK destination
-                -> Use our highly experienced and trustworthy transportation team to import your vehicle.
-                -> No obligation quotes available on request.
-                -> All duties, taxes and fees and NOVA certificate dealt with and explained to customers before using our services
-            </p>
-
-            <h1>SOURCING</h1>
-            <p>
-                Sourcing vehicles in USA
-                -> Want to find your dream American car or bike but don’t have the time or expertise?
-                -> Our experienced team can source any type of vehicle / RV / travel trailer.
-                -> Tell us your speciation and budget and we will find your vehicle for you, along with a quote for importation to the UK and delivery if required.
-            </p>
-        </div>
-        <div class="container-fluid bg-danger-subtle">
-            <h1>TRANSPORTATION</h1>
-            <P>
-                We can cater for all your vehicle movements up to 1500 kg Nationwide.
-                Purchased a vehicle from Ebay, Gumtree, Bca, Manheim, or Copart? Is it a non-runner or damaged?
-                Need Transport… we can help.
-                Please text/ring with the vehicle details and collection/delivery postcodes addresses for a price, 
-                confirming the Vehicle is rolling, has all 4 wheels and keys.
-                We still live in cautious times so we still offer a door to door service without personal contact and have masks and gloves (PPE) available at all times.
-            </P>
-            <!-- iMAGES OF TRANSPORTATION VEHICLE AND LOADS -->
-        </div>
-        <button> 
-            Get in touch
-        </button>
-        <h1>EXAMPLE STOCK</h1>
-        <p>
-            We have a variety of American vehicles in stock either currently being imported or already located in the UK. 
-            Below are examples of the types of stock we hold.
-        </p>
-
-        <!-- 
-            Javascript to create cards based on images in inventory folder
-            User will have admin page accessed by adding /admin on home page
-            , no visible links. They will log in and amend the folder CRUD including 
-            an image, video, price and description. Save when done and logoff.
-            No further action to amend website. 
-            Will list contents using dropdown menus to display data and view 
-            images with check box to select for deleting, and open text boxes to amend 
-            details.
-            Save data and inventory url path to xml/json database file to keep
-            page under a few mb size. Images will be the worst offender so may 
-            have to fix size 400 x 250? 
-        -->
-        <P>
-            1930 FORD MODEL A £29995
-            A working hot dog concession from Daytona International Raceway.
-            UK Registered V5 MOT and Tax Exempt.
-        </P>
-        <!-- 4 IMAGES -->
-
-        <P>
-            OTHER VEHICLES FOR SALE
-        </P>
-        <!-- IMAGE GALLERY -->
-        <p>66 Plymouth Fury 111 £11995</p> 
-        <p>86 Plymouth Fury Cop Car £8995</p>
-        <p>1941 Dodge Sedan SOLD</p>    
-
-        <!-- Javascript to create gallery according to images in gallery folder-->
-        <h1>GALLERY</h1>
-        <p>
-            Below are examples of vehicles we have previously sourced and imported from the USA to the UK and Europe.
-        </p>
-        <!-- Gallery loaded and unloaded cars -->
-
-        <h1>
-            Find more on facebook or instagram
-        </h1>
-
-    </main>
-
-    <footer>
-        <p>
-            Get in touch
-            call: 07939 661433 or
-        </p>
-        <p>
-            Email: info@usavehicleimports.com //LINK\\
-        </p>
-        <p>
-            USA Vehicle Imports
-            Unit 2
-            Lincoln Road
-            Horncastle
-            LN9 5AW
-        </p>
-        <p>
-            Facebook 
-            Instagram 
+        <div class="container-fluid  bg-dark-subtle text-center ">
+            <div class="row  row-cols-1 row-cols-md-2 ">
+                <div class="col mb-4 mt-4">       
+                    <div class="text-center">
+                        <h1>IMPORTING</h1>
+                    
+                        <p>Importing Vehicles from the USA</p>
+                        <p>Have you purchased a vehicle from the USA and need it shipped to a UK destination?</p>
+                        <p>Use our highly experienced and trustworthy transportation team to import your vehicle.</p>
+                        <p>No obligation quotes available on request.</p>
+                        <p>All duties, taxes and fees and NOVA certificate dealt with and explained to you 
+                            before using our services.</p>
+                 
+                    <img class="img-thumbnail bg-transparent shadow" src="/images-home/banner-2.jpg"  alt="USA Vehicle Imports logo">  
+                    </div>
+                </div>     
             
-        </p>
-        <img class="" src="/images/usa-imports-logo.png" alt="USA Vehicle Imports logo">
+                <div class="col mb-4 mt-4">
+                    <div class="text-center">
+                        <h1>SOURCING</h1>
+                    
+                        <p>Sourcing vehicles in the USA</p>
+                        <p>Want to find your dream American car or bike but are unsure where to start?</p>
+                        <p>Our experienced team can source any type of vehicle including a travel trailer or RV.</p>
+                        <p>Just tell us your vehicle specification and budget..</p>
+                        <p>..and we will find your vehicle for you, 
+                            along with a quote for importation to the UK and home delivery.</p>
+                   
+                        <img class="img-thumbnail bg-transparent shadow" src="/images-home/banner-3.jpg"  alt="USA Vehicle Imports logo">
+                    </div>
+                </div>       
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col mb-5">  
+                    <div class=" text-center">
+                        <h1>TRANSPORTATION</h1>
+                    
+                        <P>We can cater for all your vehicle movements up to 1500 kg Nationwide.</P>
+                        <p>Purchased a vehicle from Ebay, Gumtree, Bca, Manheim, or Copart? Is it a non-runner or damaged?</p>
+                        <p>Need Transport? …We can help.</p>
+                        <p>Please text/ring with the vehicle details and collection/delivery postcodes or addresses for a price, 
+                        confirming the vehicle is rolling, has all 4 wheels and keys.</p>
+                        <p>We still live in cautious times, so we continue to offer a door to door service without personal
+                            contact and have masks and gloves (PPE) available at all times.</p>
+                        <div class="row row-cols-1 row-cols-md-4 bg-transparent g-2">
+                            <img class="img-thumbnail bg-transparent p-0" src="/images-transportation/Front.jpg"  alt="Loader front">
+                            <img class="img-thumbnail bg-transparent p-0" src="/images-transportation/Left-side-angled.jpg"  alt="Loader left angled">
+                            <img class="img-thumbnail bg-transparent p-0" src="/images-transportation/Right-side-loaded2.jpg"  alt="Loader right side">
+                            <img class="img-thumbnail bg-transparent p-0" src="/images-transportation/Left-side-loaded3.jpg"  alt="Loader left side">
+                    
+                        </div>
+                        <a id="enquiryForm"></a>
+                        <img class="img-fluid mt-2 rounded-2 p-0 shadow" src="/images-home/banner-5.jpg"  alt="USA Vehicle Imports logo">
+                        
+                    </div>
+                    <!-- iMAGES OF TRANSPORTATION VEHICLE AND LOADS -->
+                </div>
+            </div>
+            
+        </div>
+
+        
+        
+        <!-- Button to view enquiry form -->
+        <div class="container-fluid container-form-bgcolor p-5">   
+            <div class="row mt-5 mb-5">
+                <div class="col-12 mt-2 mb-2">
+                    <button type="button" class="btn btn-secondary btn-lg d-block w-50 m-auto shadow rounded-pill "
+                    data-bs-toggle="collapse" data-bs-target="#collapseContactForm"
+                    aria-expanded="false" aria-controls="collapseContactForm"> 
+                          Get in touch                   
+                    </button>
+                </div>               
+            </div>
+           <!-- Hidden collapsable enquiry form using third party email service FormSpree.io. 
+            Receiving email account logged with formspree. -->
+            <div class="collapse" id="collapseContactForm">
+            <form id="contactForm"  method="post" action="https://formspree.io/f/mbjvoewj">
+                <div class="container bg-light p-3 mb-5 shadow rounded-3" style="max-width: 600px;">
+                    <h1 class="text-center text-black-50">Enquiry form</h1>
+                    <!-- name, email, phone number, enquiry comments -->
+                    <div class="form-floating m-3">
+                        <input type="text" class="form-control " name="_enqName" id="enqName" value="" aria-describedby="enqNameMessage" placeholder="Name" required pattern="[a-zA-Z]+" title="Only letters required"/>
+                        <label for="enqName">Name *</label>
+                        <small id="enqNameMessage" class="form-text text-muted">This will only generate an enquiry email to us, we will not share your details with anyone else.</small>                     
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <div class="form-floating m-3">
+                                <input type="email" class="form-control" name="_enqEmail" id="enqEmail" value="" placeholder="name@example.com" required 
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$" title="Valid email required"/>
+                                <label for="enqEmail">Email address *</label>                    
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating m-3">
+                                <input type="tel" class="form-control" name="_enqTelephoneNumber" id="enqTelephoneNumber"  value="" placeholder="Telephone number" pattern="[0-9]+" title="Only numbers required"/>
+                                <label for="enqTelephoneNumber">Telephone number</label>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating m-3">
+                        <textarea class="form-control " placeholder="Leave your enquiry here" name="_enqDetails" id="enqDetails" value="" style="height: 100px" required></textarea>
+                        <label for="enqDetails">Enquiry details *</label>
+                    </div>
+                    <p><small id="enqRequired" class="form-text text-muted">* required</small></p>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+            </div>
+            
+            <!-- Email confirmation note to make visible or call thankyou.html -->
+            <!--<div class="container" id="thankyou" >
+                <div class="container-fluid shadow mt-5 text-center p-5 w-50" >
+                    <h2>Thank You for Your Enquiry.</h2>
+                    <p>Your form has been submitted successfully.</p>
+                    <p>We will contact you as soon as possible.</p>
+                </div>
+            </div>-->
+                
+        </div>
+        
+        <a id="gallery"></a>
+
+        <div class="container pb-4">
+            <br>
+            <h1 class="mt-5 mb-4">GALLERY</h1>
+            <p>
+                We have a variety of American vehicles in stock either currently being imported or already located in the UK. 
+                Below are examples of the types of stock we hold.
+            </p>
+
+            <!-- 
+                Javascript to create cards based on images in inventory folder.
+                Client will have an admin page accessed by adding '/admin/admin.html' on home page
+                , no visible links. They will log in and amend the folder CRUD including 
+                an image, video?, price and description. Need to upload images to fixed path
+                in project '/images-inventory' and url saved to db. Save when done and logoff.
+                Enable email and password to also be changed by client.
+                No further actions to add to website. 
+                Will require non relational database using just two tables for the cars and
+                store user email/password. Need server-side php code to update db (mysql?).
+                Email can be changed from current mail service if wish but no code included.
+            -->
+            
+            <div class="container-fluid p-2 mb-4">
+                
+                <div id="vehicle-list" class="row row-cols-1 row-cols-md-2 g-3">                                 
+                <!-- cards created for each vehicle from displayVehicle() js method admin/edit-inventoryJS.js-->                                          
+                </div>
+            </div>
+        </div>
+
+        <div class="image-parallax">
+            <div class="container">
+                <div class="header-content">
+                    <h1>Find more vehicles on Facebook and Instagram</h1>
+                    <p>Sourced from the East Coast USA for you.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-fluid mb-5 mt-5">
+            <h1 class="text-center">Previous examples</h1>
+            <br>
+            <p class="text-center">
+                Below are examples of vehicles we have previously sourced and imported for clients from the USA to the UK.
+            </p>
+            <br>
+            <div class="container rounded-3">
+                <div class="container-fluid p-2 carousel-background rounded-3 shadow" style="max-width: 600px;">
+                <!-- Gallery loaded and unloaded cars -->
+                    <div id="carouselCaptions" class="carousel slide carousel-fade rounded-3" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        
+                        </div>
+                        <div class="carousel-inner rounded-3">
+                            <div class="carousel-item active">
+                                <img src="/images-gallery/gallery-1.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images-gallery/gallery-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images-gallery/gallery-3.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images-gallery/gallery-5.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images-gallery/gallery-6.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/images-gallery/gallery-7.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <a id="contactUs"></a>
+    <footer class="bg-dark text-white">
+        <div class="container p-5">
+            <div class="row row-cols-1 row-cols-sm-2 justify-content-center">
+                <div class="col">
+                    <p class="fs-3">Get in touch:</p>
+                    <p>Enquiry <a href="#enquiryForm"> form</a></p>
+                    <p>
+                        07939 661433
+                    </p>
+                    <p>Email<a href="mailto:info@usavehicleimports.com"> usavehicleimports</a></p>                
+                    <p>
+                        <a class="nav-item nav-link" title="Facebook" href="https://www.facebook.com/Usavehicleimports/"> Facebook</a>                       
+                        <a class="nav-item nav-link" title="Instagram" href="https://www.instagram.com/usa.vehicle.imports/"> or Instagram</a>
+                    </p>                  
+                </div>
+            
+              
+                <div class="col lh-1">
+                    
+                    <p class="m-1">USA Vehicle Imports</p>
+                    <p class="m-1">
+                        Unit 2,
+                        Lincoln Road,
+                        Horncastle
+                    </p class="m-1">    
+                    <p class="m-1">LN9 5AW</p>
+                    <a class="navbar-brand" href="#">
+                        <img class="img-thumbnail mt-3 mb-3 w-50" src="/images-home/usa-imports-logo.png" alt="USA Vehicle Imports logo">
+                    </a>
+                    <div class="text-sm-start lh-sm text-white-50">
+                        <p class="m-0 p-0 fw-light" style="font-size: 0.8rem;">Copyright @2023 USA VEHICLE IMPORTS</p>
+                        <p class="fw-lighter" style="font-size: 0.7rem;">All rights reserved</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
     </footer>
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.5" integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/admin/edit-inventoryJS.js"></script>
+    <script type="text/javascript" language="javascript" src="/admin/adminJS.js"></script>
 </body>
 </html>
