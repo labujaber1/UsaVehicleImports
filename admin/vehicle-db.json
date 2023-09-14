@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 2,
     "name": "1930 Ford Model A",
     "price": 29995.00,
     "availability": "available",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "66 Plymouth Fury 111",
     "price": 11995.00,
     "availability": "available",

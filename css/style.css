@@ -2,7 +2,7 @@
     background: #000;
     background: linear-gradient(
         rgb(0,0,0,0.1),
-        rgb(0,0,0,0.6)
+        rgb(0,0,0,0.9)
     ),
     url(/images-home/banner-1.jpg);
     background-attachment: fixed;
@@ -12,7 +12,7 @@
 }
 
 .header-content {
-    padding: 420px 0 100px 0;
+    padding: 320px 0 180px 0;
     color: white;
 }
 

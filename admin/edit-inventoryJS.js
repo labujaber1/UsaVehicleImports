@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
       cars.forEach(car => {
         const carCard = document.createElement('div');
-        carCard.classList.add('col-md-6', 'mb-4');
+        carCard.classList.add('col-md-6', 'mb-4', 'p-2', 'border', 'border-dark-subtle', 'border-1');
         
         const image = document.createElement('img');
         image.src = car.images[0];
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // confirms new data added to original data
       alert("4th alert Updated carData: " + JSON.stringify(carData));
       // update carData to json file
-    
+      // can't do on client side
     
     
       renderCarList(carData);
