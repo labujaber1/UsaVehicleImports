@@ -1,5 +1,5 @@
 // PROOF OF CONCEPT NOT PRODUCTION SETUP
-
+'use strict'
 
 // using nodejs
 const sqlite3 = require('sqlite3');
