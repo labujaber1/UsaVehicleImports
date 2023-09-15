@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
       //carData.forEach(item => {
         const card = document.createElement("div");
         card.classList.add("col");
-        
+        card.classList.add("p-2");
         const images = item.images.map((imageSrc, index) => `
           <div class="carousel-item ${index === 0 ? 'active' : ''}">
             <img src="${imageSrc}" class="d-block w-100 " alt="${item.name}">
