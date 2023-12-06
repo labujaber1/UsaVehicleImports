@@ -1,9 +1,13 @@
 # UsaVehicleImports
-Remake of existing static site originally made using wordpress and bootstrap.
-Requires inquiry form,
-Method for user to add images to image folder and load into gallery using javascript.
-Inventory for user to change according current stock with price and description. No requirement for car specifications such as mpg, weight, tyre size, engine spec etc.
-Email link, google maps where they are, 
-No cart requirement as personal enquireies encouraged.
-Images saved from original website.
-Images of existing websites of similar type as research saved to seperate folder.
+
+Remake of an existing wordpress/bootstrap hosted static local business website.
+
+Remake uses html, bootstrap5, custom css, and javascript containing content and images from the original site.
+
+Content has had some slight modification to fix grammatical and spelling errors while images have had some attention to make them pop a little better.
+
+A customer enquiry form is included using formspree.com to handle email services.
+
+Stock inventory read from a json file and created dynamically in cards. No database is used. No security is implemented while using json file.
+
+A single page site with a navbar and footer.
