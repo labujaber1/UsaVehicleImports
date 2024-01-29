@@ -5,7 +5,7 @@
 // clear vehicle-list and reload when new one added, edited, deleted etc
 document.addEventListener("DOMContentLoaded", function() {
 
-    const dbFile = "/admin/vehicle-db.json";
+    const dbFile = "/UsaVehicleImports/admin/vehicle-db.json";
     const vehicleList = document.getElementById('vehicle-list');
     vehicleList.innerHTML = '';
     

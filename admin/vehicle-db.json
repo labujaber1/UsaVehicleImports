@@ -6,10 +6,10 @@
     "availability": "available",
     "description": "A working hot dog concession from Daytona International Raceway. UK Registered V5 MOT and Tax Exempt. ",
     "images": [
-      "/images-inventory/1930-Ford-Model-A-1.jpg",
-      "/images-inventory/1930-Ford-Model-A-2.jpg",
-      "/images-inventory/1930-Ford-Model-A-3.jpg",
-      "/images-inventory/1930-Ford-Model-A-4.jpg"
+      "/UsaVehicleImports/images-inventory/1930-Ford-Model-A-1.jpg",
+      "/UsaVehicleImports/images-inventory/1930-Ford-Model-A-2.jpg",
+      "/UsaVehicleImports/images-inventory/1930-Ford-Model-A-3.jpg",
+      "/UsaVehicleImports/images-inventory/1930-Ford-Model-A-4.jpg"
     ]
   },
   {
@@ -19,7 +19,7 @@
     "availability": "available",
     "description": "Experience the future with this cutting-edge product.",
     "images": [
-      "/images-inventory/66-Plymouth-Fury-111.jpg"
+      "/UsaVehicleImports/images-inventory/66-Plymouth-Fury-111.jpg"
       
     ]
   },
@@ -30,7 +30,7 @@
     "availability": "available",
     "description": "Upgrade your daily routine with this amazing product.",
     "images": [
-      "/images-inventory/86-Plymouth-Fury-Cop-Car.jpg"
+      "/UsaVehicleImports/images-inventory/86-Plymouth-Fury-Cop-Car.jpg"
       
     ]
   },
@@ -41,7 +41,7 @@
     "availability": "sold",
     "description": "Upgrade your daily route with this amazing vehicle.",
     "images": [
-      "/images-inventory/1941-Dodge-Sedan.jpg"
+      "/UsaVehicleImports/images-inventory/1941-Dodge-Sedan.jpg"
       
     ]
   }
